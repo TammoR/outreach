@@ -46,6 +46,8 @@
 #+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HPcj8lRJE?start=120" frameborder="0" allowfullscreen></iframe>
 ** Multi-Layer Perceptron
 [[./mlp.png]]
+** Biological inspiration
+[[./neuron.png]]
 ** More complex tasks
 [[./cnn_rnn.png]]
 * Example 2: Self driving cars
