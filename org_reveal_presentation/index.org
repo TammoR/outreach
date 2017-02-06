@@ -1,0 +1,27 @@
+#+TITLE: Electrophysiological basis of fMRI RSNs
+#+AUTHOR: neurocillations jc
+#+DATE: August 28, 2015
+# #+Email: tammorukat@gmail.com
+
+#+OPTIONS: reveal_single_file:t 
+#+OPTIONS: reveal_center:f reveal_progress:t reveal_history:nil reveal_control:f
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:f reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1400 reveal_height:1000
+#+OPTIONS: toc:1
+# #+REVEAL_MARGIN: 0.01
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: cube 
+# default|cube|page|concave|zoom|linear|fade|none.
+#+REVEAL_THEME: league
+ # sky, league, moon, solarized
+#+REVEAL_HLEVEL: 1
+#+REVEAL_PLUGINS: (highlight markdown notes)
+# #+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_SLIDE_NUMBER: t
+#+REVEAL_DEFAULT_FRAG_STYLE: roll-in
+#+OPTIONS: org-reveal-center:t
+
+
+
+* Motivation

@@ -36,7 +36,7 @@
 
 * What is Machine Learning?
 ** What do you think?
-#+ATTR_REVEAL: :frage appear
+#+ATTR_REVEAL: :frag (appear appear appear)
 - What sorts of problems does Machine Learning address?
 - In what areas do we use Machine Learning?
 - What is Machine Learning? Definition?
@@ -44,7 +44,17 @@
 #+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/f_uwKZIAeM0" frameborder="0" allowfullscreen></iframe> 
 ** Supervised and unsupervised learning
 * Example 1: Cats and Dogs and Neural Networks
-** How is image data represented in a computer?
+** Cats and Dogs
+#+REVEAL_HTML: <div class="column" style="float:left; width: 45%">
+#+ATTR_HTML: :width 90% :height 60%
+[[./cat.jpg]]
+#+REVEAL_HTML: </div>
+#+REVEAL_HTML: <div class="column" style="float:left; width: 45%">
+#+ATTR_HTML: :width 90% :height 50%
+[[./dog.jpg]]
+#+REVEAL_HTML: </div>
+#+ATTR_REVEAL: :frag (appear)
+- How are images represented?
 ** Neural Nets
 #+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HPcj8lRJE?start=120" frameborder="0" allowfullscreen></iframe>
 ** Multi-Layer Perceptron
