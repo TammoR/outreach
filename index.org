@@ -6,7 +6,7 @@
 
 # Careful: the ox-reveal.el that is acutally being used is in .emacs.d/elpa/ox-reveal-20150408.831
 #+REVEAL_ROOT: file:./
-#+REVEAL_EXTRA_CSS: ./local.css
+#+REVEAL_EXTRA_CSS:./local.css
 #+OPTIONS: reveal_single_file:t 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:f
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:f reveal_keyboard:t reveal_overview:t num:nil
