@@ -1,27 +1,57 @@
-#+TITLE: Electrophysiological basis of fMRI RSNs
-#+AUTHOR: neurocillations jc
-#+DATE: August 28, 2015
-# #+Email: tammorukat@gmail.com
+#+TITLE: Machine Learning and Statistics -- How they shape our world
+# #+AUTHOR: Yau Group meeting
+#+DATE: February 8, 2017
+#+email: Tammo Rukat
+#+AUTHOR: Tammo Rukat
 
+# Careful: the ox-reveal.el that is acutally being used is in .emacs.d/elpa/ox-reveal-20150408.831
+#+REVEAL_ROOT: file:./
+#+REVEAL_EXTRA_CSS: ./local.css
 #+OPTIONS: reveal_single_file:t 
-#+OPTIONS: reveal_center:f reveal_progress:t reveal_history:nil reveal_control:f
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:f
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:f reveal_keyboard:t reveal_overview:t num:nil
-#+OPTIONS: reveal_width:1400 reveal_height:1000
+#+OPTIONS: reveal_width:1920 reveal_height:1080
 #+OPTIONS: toc:1
-# #+REVEAL_MARGIN: 0.01
+#+REVEAL_MARGIN: 0.15
 #+REVEAL_MIN_SCALE: 0.5
-#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_MAX_SCALE: 2
 #+REVEAL_TRANS: cube 
 # default|cube|page|concave|zoom|linear|fade|none.
-#+REVEAL_THEME: league
- # sky, league, moon, solarized
+#+REVEAL_THEME: sky
+ # sky, league, moon, solarized, league
 #+REVEAL_HLEVEL: 1
 #+REVEAL_PLUGINS: (highlight markdown notes)
-# #+REVEAL_EXTRA_CSS: ./local.css
 #+REVEAL_SLIDE_NUMBER: t
 #+REVEAL_DEFAULT_FRAG_STYLE: roll-in
+# #+REVEAL_TITLE_SLIDE_BACKGROUND: ./logo.png
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: 400px
+#+REVEAL_TITLE_SLIDE_BACKGROUND_REPEAT: repeat
+# #+REVEAL_TITLE_SLIDE_TEMPLATE: <h1>%t</h1><br><br><br><br><br><h2>Bayesian Boolen matrix factorisation</h2>
 #+OPTIONS: org-reveal-center:t
 
 
-
-* Motivation
+* What is Machine Learning?
+** What do you think?
+#+ATTR_REVEAL: :frage appear
+- What sorts of problems does Machine Learning address?
+- In what areas do we use Machine Learning?
+- What is Machine Learning? Definition?
+** Introductory video
+#+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/f_uwKZIAeM0" frameborder="0" allowfullscreen></iframe> 
+** Supervised and unsupervised learning
+* Example 1: Cats and Dogs and Neural Networks
+** How is image data represented in a computer?
+** Neural Nets
+#+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/P2HPcj8lRJE?start=120" frameborder="0" allowfullscreen></iframe>
+** Multi-Layer Perceptron
+[[./mlp.png]]
+** More complex tasks
+[[./cnn_rnn.png]]
+* Example 2: Self driving cars
+** Tesla video
+#+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/wuhbqcMzOaw" frameborder="0" allowfullscreen></iframe>
+** Tesla video slow
+#+REVEAL_HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/hLaEV72elj0" frameborder="0" allowfullscreen></iframe>
+* Example 3: Discovering meaningful patterns in the Human Genome
+** Biology Recap
+** 100k Genomes
