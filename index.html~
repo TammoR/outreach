@@ -76,7 +76,7 @@
 <div class="column" style="float:left; width: 45%">
 
 <div class="figure">
-<p><img src="./cat.jpg" alt="cat.jpg" width="90%" height="50%" />
+<p><img src="./cat.jpg" alt="cat.jpg" width="90%" height="60%" />
 </p>
 </div>
 </div>
@@ -88,7 +88,7 @@
 </div>
 </div>
 <ul>
-<li>How are images represented?</li>
+<li class="fragment appear">How are images represented?</li>
 
 </ul>
 </section>
@@ -166,8 +166,8 @@ slideNumber: true,
 rollingLinks: true,
 keyboard: true,
 overview: true,
-width: 1920,
-height: 1080,
+width: 1280,
+height: 1024,
 margin: 0.15,
 minScale: 0.50,
 maxScale: 2.00,
